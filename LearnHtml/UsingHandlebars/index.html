@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Mobile</th>
+            </tr>
+        </thead>
+        <tbody id="tbodyId">
+
+        </tbody>
+    </table>
+
+    <template id="TemplateId">
+        <tr>
+            <td>{{name}}</td>
+            <td></td>
+            <td>{{mobile}}</td>
+        </tr>
+    </template>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script>
+        let jVarLocalTemplate = document.getElementById("TemplateId");
+        let jVarLocalTbody = document.getElementById("tbodyId");
+        let jVarLocalClone = jVarLocalTemplate.content.cloneNode(true);
+        console.log('jVarLocalClone : ', jVarLocalTemplate.content);
+        // compile the template
+        var template = Handlebars.compile(jVarLocalClone.textContent);
+        console.log('template : ', template);
+        let jVarLocalK1 = template({ name: "Keshav" });
+        console.log('jVarLocalK1 : ', jVarLocalK1);
+        jVarLocalTbody.appendChild(jVarLocalK1);
+        // jVarLocalTbody.innerHTML = 
+    </script>
+</body>
+
+</html>
