@@ -162,30 +162,44 @@
                     </a>
 
                     <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-                        <li>
-                            <a href="./FromHtml/SearchData.html" class="nav-link text-white">
+                        <!-- <li>
+                            <a href="#" class="nav-link text-secondary">
                                 <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                    <use xlink:href="#grid" />
+                                    <use xlink:href="#column" />
                                 </svg>
-                                From Html
+                                column
+                            </a>
+                        </li> -->
+                        <li>
+                            <a href="SearchData.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <use xlink:href="#serch" />
+                                </svg>
+                                Search Data
                             </a>
                         </li>
-                  
                         <li>
-                            <a href="./FromData/SearchData.html" class="nav-link text-white">
+                            <a href="ShowCol.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <use xlink:href="#column" />
+                                </svg>
+                                ShowCol Data
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <use xlink:href="#table" />
+                                </svg>
+                                SimpleTable
+                            </a>
+                        </li>
+                        <li>
+                            <a href="FromData.html" class="nav-link text-white">
                                 <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                     <use xlink:href="#grid" />
                                 </svg>
                                 From Data
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="./FromUrl/SearchData.html" class="nav-link text-white">
-                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                    <use xlink:href="#grid" />
-                                </svg>
-                                From URL
                             </a>
                         </li>
                         
@@ -195,7 +209,54 @@
         </div>
     </header>
     <main>
-     
+        <div class="container">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="../Menu.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">SimpleTable</li>
+                </ol>
+              </nav>
+              <table data-toggle="table">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Name</th>
+                        <th colspan="2">Details</th>
+                    </tr>
+                    <tr>
+                        <th>stars</th>
+                        <th>Forks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://examples.bootstrap-table.com/#welcomes/from-html.html">bootstrap-table</a></td>
+                        <td>8827</td>
+                        <td>3606</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://examples.bootstrap-table.com/#welcomes/from-html.html">bootstrap-table</a></td>
+                        <td>8827</td>
+                        <td>3606</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://examples.bootstrap-table.com/#welcomes/from-html.html">bootstrap-table</a></td>
+                        <td>8827</td>
+                        <td>3606</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://examples.bootstrap-table.com/#welcomes/from-html.html">bootstrap-table</a></td>
+                        <td>8827</td>
+                        <td>3606</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://examples.bootstrap-table.com/#welcomes/from-html.html">bootstrap-table</a></td>
+                        <td>8827</td>
+                        <td>3606</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
     </main>
     <footer>
         <!-- place footer here -->
@@ -213,6 +274,7 @@
     <script src="https://unpkg.com/bootstrap-table@1.22.4/dist/bootstrap-table.min.js"></script>
 
    
+    
 
 </body>
 

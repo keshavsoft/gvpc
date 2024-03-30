@@ -171,7 +171,7 @@
                             </a>
                         </li> -->
                         <li>
-                            <a href="#" class="nav-link text-white">
+                            <a href="SearchData.html" class="nav-link text-white">
                                 <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                     <use xlink:href="#serch" />
                                 </svg>
@@ -187,7 +187,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="table.html" class="nav-link text-white">
+                            <a href="#" class="nav-link text-white">
                                 <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                     <use xlink:href="#table" />
                                 </svg>
@@ -212,11 +212,11 @@
         <div class="container">
               <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Search Data</li>
+                  <li class="breadcrumb-item"><a href="../Menu.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">SimpleTable</li>
                 </ol>
               </nav>
-              <table id="BsTable" class="table">
+              <table class="table" data-toggle="table" data-url="./data.json">
                 <thead>
                     <tr>
                         <th data-field="id">ID</th>
@@ -244,45 +244,7 @@
     <script src="https://unpkg.com/bootstrap-table@1.22.4/dist/bootstrap-table.min.js"></script>
 
    
-    <script>
-        var $table = $('#BsTable')
-
-        $(function () {
-            var data = [
-                {
-                    'id': 0,
-                    'name': 'Keshav',
-                    'price': '$0'
-                },
-                {
-                    'id': 1,
-                    'name': 'Item 1',
-                    'price': '$1'
-                },
-                {
-                    'id': 2,
-                    'name': 'Item 2',
-                    'price': '$2'
-                },
-                {
-                    'id': 3,
-                    'name': 'Item 3',
-                    'price': '$3'
-                },
-                {
-                    'id': 4,
-                    'name': 'Item 4',
-                    'price': '$4'
-                },
-                {
-                    'id': 5,
-                    'name': 'Item 5',
-                    'price': '$5'
-                }
-            ]
-            $table.bootstrapTable({ data: data })
-        })
-    </script>
+   
 
 </body>
 
