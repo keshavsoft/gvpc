@@ -191,7 +191,7 @@
                                 <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                     <use xlink:href="#table" />
                                 </svg>
-                                Simple Table
+                                SimpleTable
                             </a>
                         </li>
                         <li>
@@ -212,11 +212,12 @@
         <div class="container">
               <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Search Data</li>
+                  <li class="breadcrumb-item"><a href="../Menu.html">Home</a></li>
+                  <!-- <li class="breadcrumb-item"><a href="">Home</a></li> -->
+                  <li class="breadcrumb-item active" aria-current="page">SearchData</li>
                 </ol>
               </nav>
-              <table id="BsTable" class="table" data-search="true" data-url="./data.json">
+              <table id="BsTable" class="table" data-search="true">
                 <thead>
                     <tr>
                         <th data-field="id">ID</th>
@@ -243,8 +244,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
     <script src="https://unpkg.com/bootstrap-table@1.22.4/dist/bootstrap-table.min.js"></script>
 
-   
-    <script>
+        <script>
         var $table = $('#BsTable')
 
         $(function () {
@@ -280,9 +280,7 @@
                     'price': '$5'
                 }
             ]
-            
-            $table.bootstrapTable();
-
+            $table.bootstrapTable({ data: data })
         })
     </script>
 
