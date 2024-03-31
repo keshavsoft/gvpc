@@ -1,32 +1,102 @@
- [
+[
     {
         "id": 0,
-        "name": "Keshav",
-        "price": "$0"
+        "name": "Alice",
+        "price": "$7"
     },
     {
         "id": 1,
-        "name": "Veerendra",
-        "price": "$1"
-    },
-    {
-        "id": 2,
-        "name": "Item 2",
-        "price": "$2"
-    },
-    {
-        "id": 3,
-        "name": "Item 3",
+        "name": "Kevin",
         "price": "$3"
     },
     {
+        "id": 2,
+        "name": "Tina",
+        "price": "$0"
+    },
+    {
+        "id": 3,
+        "name": "Frank",
+        "price": "$8"
+    },
+    {
         "id": 4,
-        "name": "Item 4",
-        "price": "$4"
+        "name": "Julia",
+        "price": "$10"
     },
     {
         "id": 5,
-        "name": "Item 5",
+        "name": "Michael",
+        "price": "$6"
+    },
+    {
+        "id": 6,
+        "name": "Rachel",
+        "price": "$4"
+    },
+    {
+        "id": 7,
+        "name": "Eve",
         "price": "$5"
+    },
+    {
+        "id": 8,
+        "name": "Samuel",
+        "price": "$3"
+    },
+    {
+        "id": 9,
+        "name": "Alice",
+        "price": "$7"
+    },
+    {
+        "id": 10,
+        "name": "David",
+        "price": "$1"
+    },
+    {
+        "id": 11,
+        "name": "Michael",
+        "price": "$0"
+    },
+    {
+        "id": 12,
+        "name": "Isaac",
+        "price": "$8"
+    },
+    {
+        "id": 13,
+        "name": "Charlie",
+        "price": "$6"
+    },
+    {
+        "id": 14,
+        "name": "Alice",
+        "price": "$9"
+    },
+    {
+        "id": 15,
+        "name": "Quincy",
+        "price": "$4"
+    },
+    {
+        "id": 16,
+        "name": "Hannah",
+        "price": "$1"
+    },
+    {
+        "id": 17,
+        "name": "Nancy",
+        "price": "$2"
+    },
+    {
+        "id": 18,
+        "name": "Samuel",
+        "price": "$5"
+    },
+    {
+        "id": 19,
+        "name": "Grace",
+        "price": "$9"
     }
 ]
